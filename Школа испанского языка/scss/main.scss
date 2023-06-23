@@ -1,0 +1,24 @@
+@import "./base/_normalize";
+@import "./base/_vars";
+@import "./base/_mixins";
+@import "./base/_base";
+
+
+@import "./blocks/_nav-icon";
+
+@import "./blocks/_header";
+@import "./blocks/_hero.scss";
+@import "./blocks/_school.scss";
+@import "./blocks/_courses.scss";
+@import "./blocks/_exams.scss";
+@import "./blocks/_events.scss";
+@import "./blocks/_news.scss";
+@import "./blocks/_footer.scss";
+
+
+//Schedule page
+
+@import "./blocks/_schedule.scss";
+@import "./blocks/_exams-page.scss";
+@import "./blocks/_yandex-map.scss";
+@import "./blocks/_contacts-page.scss";

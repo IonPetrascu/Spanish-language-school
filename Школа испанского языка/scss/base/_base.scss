@@ -1,0 +1,53 @@
+*,*::after,*::before{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: $font-main;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.wrapper{
+ max-width: 1344px;
+ padding: 0px 24px;
+ margin: 0 auto;
+}
+
+.wrapper-min{
+	max-width: 1124px;
+	padding: 0px 24px;
+	margin: 0 auto;
+ }
+
+.button{
+	background-color: $accent;
+	cursor: pointer;
+	color: #fff;
+}
+
+.wrapper-schedule{
+	max-width: 1124px;
+	padding: 0px 24px;
+	margin: 0 auto;
+}
+.wrapper-exams{
+	max-width:calc(636px + 48px);
+	padding: 0px 24px;
+	margin: 0 auto;
+}
+
+.wrapper-big{
+	max-width: calc(1124px + 220px);
+	padding: 0px 24px;
+	margin: 0 auto;
+}
+
+.none{
+	display: none !important;
+}
+
+.no-scroll{
+	overflow: hidden;
+}

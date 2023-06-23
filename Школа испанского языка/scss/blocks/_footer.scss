@@ -1,0 +1,93 @@
+.footer__cols{
+	display: grid;
+	grid-template-areas: 
+	'social info payment exams school'
+	'social info education exams school';
+	column-gap: 70px;
+	row-gap: 40px;
+
+	@include media1400px{
+		gap: 20px;
+		display: flex;
+		flex-wrap: wrap;
+	justify-content: center;
+	}
+
+
+}
+.footer__col:nth-child(1){
+	grid-area:social;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+.footer__col:nth-child(2){
+	grid-area:info;
+}
+.footer__col:nth-child(3){
+	grid-area:payment;
+}
+.footer__col:nth-child(4){
+	grid-area:education;
+}
+.footer__col:nth-child(5){
+	grid-area:exams;
+}
+.footer__col:nth-child(6){
+	grid-area:school;
+}
+
+.footer {
+	background: #5151510a;
+	padding:60px 0px;
+}
+.wrapper {
+}
+.footer__cols {
+}
+.footer__col {
+	width: 200px;
+}
+.title {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 140%;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+}
+.social__list {
+}
+.social__list-items {
+}
+.social__list-link {
+}
+.social-icons {
+	display: flex;
+	column-gap: 20px;
+}
+.footer__col-title {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 140%;
+	margin-bottom: 25px;
+}
+.footer__col-list {
+	display: grid;
+	row-gap: 15px;
+	
+}
+.footer__col-item {
+}
+.footer__item-link {
+}
+.footer-copy{
+	background: #5151510a;
+}
+.footer-flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:25px 0px ;
+	border-top: 1px solid rgba(51, 51, 51, 0.274) ;
+	
+}

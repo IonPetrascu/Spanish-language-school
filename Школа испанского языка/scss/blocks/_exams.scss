@@ -1,0 +1,113 @@
+.exams {
+	margin-bottom: 50px;
+
+	@include media1140px{
+		padding-top: 50px;
+	}
+
+	@include media800px{
+		padding-top: 40px;
+		
+	}
+}
+.exams__title {
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 140%;
+	text-align: center;
+	letter-spacing: 0.01em;
+	color: $black;
+	margin-bottom: 100px;
+
+	@include media1140px{
+		margin-bottom: 40px;
+		font-size: 40px;
+		font-weight: 600;
+	}
+
+	@include media800px{
+		margin-bottom: 20px;
+		font-size: 24px;
+
+	}
+}
+.exams__cards {
+	display: grid;
+	grid-template-columns: repeat(4,306px);
+	column-gap: 24px;
+
+	@include media1400px{
+		display: grid;
+		grid-template-columns: repeat(2,306px);
+		gap: 50px;
+		justify-content: center;
+	}
+	@include media800px{
+		display: flex;
+		flex-direction: column;
+		gap: 70px;
+		align-items: center;
+	}
+}
+
+.exam__card-img{
+	max-width: 306px;
+	height: auto;
+	margin-bottom: 30px;
+
+	@include media1140px{
+		margin-bottom: 15px;
+	}
+}
+.exam__card {
+	max-width: 306px;
+	
+
+}
+.exam__card-title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 140%;
+	text-align: center;
+	margin-bottom: 20px;
+
+	@include media1140px{
+		font-weight: 500;
+		font-size: 22px;
+		line-height: 120%;
+	}
+}
+.exam__list {
+	padding: 0px 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	margin-bottom: 45px;
+
+
+	@include media1140px{
+		gap:15px ;
+		margin-bottom: 20px;
+	}
+}
+.exam__list-item {
+	list-style-type: initial;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 140%;
+	
+}
+.exam__button {
+	padding: 15px 30px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 140%;
+	display: block;
+	margin: 0 auto;
+
+	@include media1140px{
+	padding: 10px 15px;
+	font-weight: 500;
+		font-size: 18px;
+}
+}

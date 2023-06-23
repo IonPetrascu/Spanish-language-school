@@ -1,0 +1,73 @@
+.exams-section__title{
+	margin-top: 80px;
+}
+.exams-desc{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.exams-section--2 {
+
+}
+.wrapper-exams {
+}
+.exams-desc {
+}
+.exams-level {
+	margin-top:60px ;
+}
+.level__title {
+	margin-bottom: 40px;
+}
+.exams-points {
+}
+.points__title {
+	margin-bottom: 40px;
+	margin-top: 60px;
+}
+.points__desc {
+}
+
+.level-list{
+	list-style: url(/img/schedule/cube.svg);
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	margin-bottom: 60px;
+span{
+	font-weight: 700;
+}
+	li{
+		font-size: 16px;
+	line-height: 140%;
+	}
+}
+
+.point-list__desc{
+	list-style: url(/img/schedule/cube.svg);
+	margin:40px 0px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+
+
+
+//MSK
+.msk {
+	padding: 60px 0px 120px;
+}
+.wrapper-exams {
+}
+.msk__flex {
+	display: flex;
+	gap: 23px;
+	flex-wrap: wrap;
+}
+.button {
+}
+.msk__button {
+	padding: 10px 20px;
+}
