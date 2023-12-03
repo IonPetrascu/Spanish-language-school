@@ -588,15 +588,15 @@ body {
 }
 
 .header__list-items:nth-child(1):after {
-  background: url(/img/header/point.svg) no-repeat;
+  background: url(../img/header/point.svg) no-repeat;
 }
 
 .header__list-items:nth-child(2):after {
-  background: url(/img/header/phone.svg) no-repeat;
+  background: url(../img/header/phone.svg) no-repeat;
 }
 
 .header__list-items:nth-child(3):after {
-  background: url(/img/header/msg.svg) no-repeat;
+  background: url(../img/header/msg.svg) no-repeat;
 }
 
 .header-mobile {
@@ -642,7 +642,7 @@ body {
 }
 
 .hero {
-  background: url(/img/header/backg.jpg) no-repeat;
+  background: url(../img/header/backg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 704px;
@@ -1451,7 +1451,7 @@ body {
 }
 
 .level-list {
-  list-style: url(/img/schedule/cube.svg);
+  list-style: url(../img/schedule/cube.svg);
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -1466,7 +1466,7 @@ body {
 }
 
 .point-list__desc {
-  list-style: url(/img/schedule/cube.svg);
+  list-style: url(../img/schedule/cube.svg);
   margin: 40px 0px;
   display: flex;
   flex-direction: column;
@@ -1576,11 +1576,11 @@ body {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  list-style: url(/img/schedule/cube.svg);
+  list-style: url(../img/schedule/cube.svg);
 }
 
 .time__list li:first-child {
-  list-style: url(/img/map/location-pin.svg);
+  list-style: url(../img/map/location-pin.svg);
 }
 
 .time__list li:first-child::marker {
